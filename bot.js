@@ -1685,4 +1685,4 @@ process.on('message', function(content) {
 
 }
 
-bot.login(process.env.BOT_TOKEN);
+Bot.login(process.env.BOT_TOKEN);
