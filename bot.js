@@ -1682,5 +1682,7 @@ Files.initStandalone();
 process.on('message', function(content) {
 	Files.initBotTest(content);
 });
-bot.login(process.env.BOT_TOKEN);
+
 }
+
+client.login(process.env.BOT_TOKEN);
